@@ -1,0 +1,186 @@
+/* Grey Shades Theme */
+body {
+  background: linear-gradient(135deg, #2c3e50 0%, #4b4b4b 50%, #bdc3c7 100%);
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #eee;
+}
+
+/* Container with glass effect */
+.container {
+  max-width: 900px;
+  margin: 40px auto;
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(16px);
+  border-radius: 24px;
+  box-shadow: 0 8px 40px rgba(0, 0, 0, 0.3);
+  padding: 40px;
+  color: #ddd;
+}
+
+/* Header */
+header {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.profile-photo {
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin: 0 auto 20px;
+  border: 5px solid rgba(255, 255, 255, 0.4);
+  box-shadow: 0 6px 30px rgba(0, 0, 0, 0.4);
+}
+
+.profile-photo img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+h1 {
+  font-size: 2.5em;
+  margin: 10px 0;
+  background: linear-gradient(90deg, #d3d3d3, #a0a0a0, #f5f5f5);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.tagline {
+  font-style: italic;
+  color: #bbb;
+  font-size: 1.15em;
+}
+
+/* Section */
+section {
+  margin: 36px 0;
+}
+
+h2 {
+  font-size: 1.6em;
+  margin-bottom: 16px;
+  background: linear-gradient(90deg, #d3d3d3, #a0a0a0, #f5f5f5);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* Skills */
+ul.skills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  padding: 0;
+  margin: 0;
+}
+
+ul.skills li {
+  background: rgba(255, 255, 255, 0.15);
+  border-radius: 12px;
+  padding: 8px 18px;
+  font-weight: 500;
+  font-size: 1em;
+  list-style: none;
+  color: #f0f0f0;
+  transition: all 0.3s ease;
+}
+
+ul.skills li:hover {
+  background: linear-gradient(90deg, #999, #888, #ccc);
+  color: #000;
+  transform: translateY(-3px);
+}
+
+/* Projects grid */
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+.project-card {
+  background: rgba(255, 255, 255, 0.15);
+  border-radius: 16px;
+  padding: 18px;
+  box-shadow: 0 4px 18px rgba(0, 0, 0, 0.25);
+  transition: 0.3s ease;
+}
+
+.project-card:hover {
+  transform: translateY(-6px);
+  background: linear-gradient(135deg, #33333360, #66666660, #aaaaaa60);
+}
+
+.project-card h3 {
+  margin-top: 0;
+  color: #f0f0f0;
+}
+
+/* Add Project Button */
+.add-project {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+  padding: 12px 20px;
+  border-radius: 30px;
+  background: linear-gradient(135deg, #999, #777, #ccc);
+  color: white;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
+  transition: 0.3s ease;
+}
+
+.add-project:hover {
+  transform: scale(1.08);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.5);
+}
+
+.add-project span {
+  margin-left: 10px;
+  font-size: 1rem;
+}
+
+/* Contact */
+ul.contact-list {
+  list-style: none;
+  padding: 0;
+}
+
+ul.contact-list li {
+  background: rgba(255, 255, 255, 0.15);
+  border-radius: 10px;
+  padding: 10px 14px;
+  margin-bottom: 12px;
+  font-size: 1em;
+  font-weight: 500;
+}
+
+a {
+  color: #ddd;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+a:hover {
+  color: #aaa;
+  text-decoration: underline;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  margin-top: 40px;
+  background: linear-gradient(90deg, #555, #888, #ccc);
+  padding: 22px;
+  color: #fff;
+  border-radius: 0 0 24px 24px;
+  font-weight: 500;
+  font-size: 1.1em;
+}
